@@ -15,7 +15,9 @@
 #include <codec_type.h>
 #include <codec_error.h>
 
+int codec_init_no_modeset(codec_para_t *pcodec);
 int codec_init(codec_para_t *);
+int codec_close_no_modeset(codec_para_t *pcodec);
 int codec_close(codec_para_t *);
 void codec_audio_basic_init(void);
 void codec_close_audio(codec_para_t *);

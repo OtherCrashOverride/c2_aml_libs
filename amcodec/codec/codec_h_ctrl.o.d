@@ -39,15 +39,16 @@ codec_h_ctrl.o: codec_h_ctrl.c /usr/include/stdc-predef.h \
  /usr/include/aarch64-linux-gnu/sys/mman.h \
  /usr/include/aarch64-linux-gnu/bits/mman.h \
  /usr/include/aarch64-linux-gnu/bits/mman-linux.h \
- /work/aml_libs/amcodec/include/codec_error.h \
- /work/aml_libs/amcodec/include/codec.h \
- /work/aml_libs/amcodec/include/codec_type.h \
- /work/aml_libs/amcodec/include/amports/amstream.h \
- /work/aml_libs/amcodec/include/amports/vformat.h \
- /work/aml_libs/amcodec/include/amports/aformat.h \
- /work/aml_libs/amcodec/include/amports/vformat.h \
- /work/aml_libs/amcodec/include/amports/aformat.h \
- /work/aml_libs/amcodec/include/ppmgr/ppmgr.h codec_h_ctrl.h \
- /work/aml_libs/amcodec/include/amports/amstream.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/codec_error.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/codec.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/codec_type.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/amstream.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/vformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/aformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/vformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/aformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/ppmgr/ppmgr.h \
+ codec_h_ctrl.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/amstream.h \
  /usr/include/aarch64-linux-gnu/sys/times.h
 	$(call c_mk,$<)

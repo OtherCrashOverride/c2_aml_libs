@@ -36,15 +36,15 @@ audio_ctrl.o: audio_ctrl.c /usr/include/stdc-predef.h \
  /usr/include/aarch64-linux-gnu/sys/ttydefaults.h /usr/include/fcntl.h \
  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
- /work/aml_libs/amcodec/include/codec_error.h \
- /work/aml_libs/amcodec/include/codec.h \
- /work/aml_libs/amcodec/include/codec_type.h \
- /work/aml_libs/amcodec/include/amports/amstream.h \
- /work/aml_libs/amcodec/include/amports/vformat.h \
- /work/aml_libs/amcodec/include/amports/aformat.h \
- /work/aml_libs/amcodec/include/amports/vformat.h \
- /work/aml_libs/amcodec/include/amports/aformat.h \
- /work/aml_libs/amcodec/include/ppmgr/ppmgr.h \
- /work/aml_libs/amcodec/codec/codec_h_ctrl.h \
- /work/aml_libs/amcodec/../amadec/include/adec-external-ctrl.h
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/codec_error.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/codec.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/codec_type.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/amstream.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/vformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/aformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/vformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/aformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/ppmgr/ppmgr.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/codec/codec_h_ctrl.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/../amadec/include/adec-external-ctrl.h
 	$(call c_mk,$<)

@@ -35,13 +35,14 @@ codec_msg.o: codec_msg.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/sys/ttydefaults.h /usr/include/fcntl.h \
  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
- /work/aml_libs/amcodec/include/codec_error.h \
- /work/aml_libs/amcodec/include/codec.h \
- /work/aml_libs/amcodec/include/codec_type.h \
- /work/aml_libs/amcodec/include/amports/amstream.h \
- /work/aml_libs/amcodec/include/amports/vformat.h \
- /work/aml_libs/amcodec/include/amports/aformat.h \
- /work/aml_libs/amcodec/include/amports/vformat.h \
- /work/aml_libs/amcodec/include/amports/aformat.h \
- /work/aml_libs/amcodec/include/ppmgr/ppmgr.h codec_h_ctrl.h
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/codec_error.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/codec.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/codec_type.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/amstream.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/vformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/aformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/vformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/amports/aformat.h \
+ /srv/disk0/c2/experimental/c2_aml_libs/amcodec/include/ppmgr/ppmgr.h \
+ codec_h_ctrl.h
 	$(call c_mk,$<)
